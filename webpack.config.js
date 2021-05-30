@@ -6,7 +6,7 @@ const port = 3000;
 
 module.exports = {
     mode: 'development',
-    entry: './src/index.js',
+    entry: ['babel-polyfill', './src/index.js'],
     output: {
         path: __dirname + '/dist',
         filename: 'bundle.[hash].js',

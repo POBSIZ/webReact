@@ -1,4 +1,6 @@
 {
+    // "presets": ["@babel/preset-env", "@babel/preset-react", "es2020", "stage-0"],
     "presets": ["@babel/preset-env", "@babel/preset-react"],
+    // "presets": ["es2020", "stage-0"],
     "plugins": ["react-hot-loader/babel"]
 }

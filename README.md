@@ -1,5 +1,5 @@
-HowToStart = [
-    - npm install
-    - npm start
+HowToStart = [ <br>
+    - `npm install` <br> 
+    - `npm start` <br>
 ]
 
