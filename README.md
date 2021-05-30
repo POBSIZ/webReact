@@ -1,9 +1,9 @@
 ## HowToStart
-> `npm install` 
-> `npm start` 
+>1. `npm install` 
+>2. `npm start` 
 
 ## Module
-> `React`
-> `typescript`
-> `webpack`
-> `babel`
+>- `React`
+>- `typescript`
+>- `webpack`
+>- `babel`
