@@ -1,11 +1,9 @@
-HowToStart = [ <br>
-- `npm install` <br> 
-- `npm start` <br>
-]
+## HowToStart
+>1. `npm install` 
+>2. `npm start` 
 
-Module = [ <br>
-- `React`
-- `typescript`
-- `webpack`
-- `babel`
-]
+## Module
+>- `React`
+>- `typescript`
+>- `webpack`
+>- `babel`
