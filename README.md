@@ -4,6 +4,7 @@
 
 ## Module
 >- `React`
->- `typescript`
->- `webpack`
->- `babel`
+>- `Typescript`
+>- `Webpack`
+>- `Babel`
+>- `Sass`
