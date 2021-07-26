@@ -2,7 +2,7 @@ import React from 'react';
 import { hot } from 'react-hot-loader';
 import './App.css';
 
-class App extends React.Component {
+class Apps extends React.Component {
     render() {
         return (
             <div className="main">
@@ -12,4 +12,4 @@ class App extends React.Component {
     }
 }
 
-export default hot(module)(App);
+export default hot(module)(Apps);

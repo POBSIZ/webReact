@@ -10,8 +10,8 @@ module.exports = {
     mode: 'development',
     entry: [
         'babel-polyfill',
-        './src/index.tsx',
-        // './src/index.js'
+        // './src/index.tsx',
+        './src/index.jsx'
     ],
     output: {
         path: __dirname + '/dist',
@@ -22,7 +22,7 @@ module.exports = {
         alias: {
             components: __dirname + 'src/components'
         },
-        extensions: ['.js', '.tsx'],
+        extensions: ['.js', '.jsx', '.tsx'],
     },
     module: {
         rules: [
@@ -32,7 +32,7 @@ module.exports = {
             //     use: ['babel-loader']
             // },
             { // BABEL & TS LOADER
-                test: /\.(ts|tsx|js)$/,
+                test: /\.(ts|tsx|js|jsx)$/,
                 use: [
                     'babel-loader',
                     {
