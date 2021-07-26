@@ -1,9 +1,10 @@
 import React from 'react';
 import { hot } from 'react-hot-loader';
+import PropTypes from 'prop-types';
 import './App.css';
 import './App.scss';
 
-class Apps extends React.Component {
+class App extends React.Component {
     render() {
         return (
             <div className="main">
@@ -13,4 +14,4 @@ class Apps extends React.Component {
     }
 }
 
-export default hot(module)(Apps);
+export default hot(module)(App);

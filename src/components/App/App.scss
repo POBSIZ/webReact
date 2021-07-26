@@ -1,0 +1,12 @@
+$color--black: #f00233;
+$color--white: #fff;
+
+.main {
+    background-color: $color--red;
+    h1 {
+        color: $color--white;
+        font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+    }
+}
