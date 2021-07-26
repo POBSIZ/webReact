@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { hot } from 'react-hot-loader';
 import './App.css';
+import './App.scss';
 
 interface Props {
     firstName: string;

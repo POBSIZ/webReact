@@ -45,9 +45,13 @@ module.exports = {
                 exclude: /node_modules/,
             },
             { // CSS LOADER
-                test: /\.css$/,
+                test: /\.(css|scss)$/,
                 // use: ['style-loader', 'css-loader'],
-                use: [MiniCssExtractPlugin.loader, 'css-loader'],
+                use: [
+                    MiniCssExtractPlugin.loader, 
+                    'css-loader',
+                    'sass-loader'  
+                ],
             },
             { // URL LOADER
                 test: /\.(ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
