@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, Route, BrowserRouter as Router } from "react-router-dom";
 import { hot } from 'react-hot-loader';
 import PropTypes from 'prop-types';
-import ScriptTag from 'react-script-tag';
+import { Helmet } from 'react-helmet';
 import './App.css';
 import './App.scss';
 
