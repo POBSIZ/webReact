@@ -55,7 +55,10 @@ module.exports = {
             },
             { // URL LOADER
                 test: /\.(ico|png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
-                loader: 'url-loader',
+                use: [
+                    'url-loader',
+                    'file-loader' 
+                ],
                 options: {
                     name: '[hash].[ext]',
                     limit: 10000,

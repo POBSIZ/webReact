@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 // Components
-import App from './components/Apps';
+import App from './components/App/App';
 
 const rootElement = document.getElementById('root');
 ReactDOM.render(
