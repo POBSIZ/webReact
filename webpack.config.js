@@ -14,7 +14,7 @@ module.exports = {
         './src/index.jsx'
     ],
     output: {
-        path: __dirname + '/buil',
+        path: __dirname + '/build',
         filename: 'bundle.[hash].js',
         publicPath: '/'
     },
