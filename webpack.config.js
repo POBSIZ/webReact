@@ -15,12 +15,13 @@ module.exports = {
     ],
     output: {
         path: __dirname + '/build',
-        filename: 'bundle.[hash].js',
+        filename: 'app.js',
         publicPath: '/'
     },
     resolve: {
         alias: {
-            components: __dirname + 'src/components'
+            components: __dirname + 'src/components',
+            'react-dom': '@hot-loader/react-dom'
         },
         extensions: ['.js', '.jsx', '.tsx'],
     },

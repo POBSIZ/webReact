@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link, Route, BrowserRouter as Router } from "react-router-dom";
+import { Link, Route, BrowserRouter } from "react-router-dom";
 import { hot } from 'react-hot-loader';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
-import './App.scss';
+
+import './assets/css/App.scss';
 
 class App extends React.Component {
     render() {
