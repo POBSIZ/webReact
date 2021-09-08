@@ -10,7 +10,6 @@ module.exports = {
     mode: 'development',
     entry: [
         'babel-polyfill',
-        // './src/index.tsx',
         './src/index.jsx'
     ],
     output: {
